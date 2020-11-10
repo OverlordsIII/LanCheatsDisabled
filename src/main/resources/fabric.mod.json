@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "lan-cheats-gone",
+  "version": "${version}",
+  "name": "Lan Cheats Gone",
+  "description": "A mod that removes the enable cheats button from the lan screen",
+  "authors": [
+    "OverlordsIII"
+  ],
+  "contact": {
+    "homepage": "PLEASE PUT SOMETHING HERE LATER",
+    "sources": "PLEASE PUT SOMETHING HERE LATER"
+  },
+  "license": "CC0-1.0",
+  "icon": "assets/lan-cheats-gone/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "io.github.overlordsiii.lancheats.LanCheatsDisabled"
+    ]
+  },
+  "mixins": [
+    "lan-cheats.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.6+build.214",
+    "minecraft": "1.16.4"
+  }
+}
